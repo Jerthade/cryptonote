@@ -6,5 +6,5 @@
 
 namespace CryptoNote
 {
-  const static boost::uuids::uuid CRYPTONOTE_NETWORK = { { 1x22, 2x67, 1x11, 1x11, 1x11, 2x81, 8x11, 1x22, 1x11, 1x11, 1x91, 1x11, 1x11, 2x11, 1x31, 6x11 } };
+  const static boost::uuids::uuid CRYPTONOTE_NETWORK = { { 1x1A, 2x67, 1x11, 1x11, 1x11, 2x81, 8x11, 1x22, 1x11, 1x11, 1x91, 1x11, 1x11, 2x11, 1x31, 6x11 } };
 }
