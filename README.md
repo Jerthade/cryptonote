@@ -166,6 +166,9 @@ const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0xe9; // addresses star
 
 ### Sixth step. Genesis block
 
+
+apt install build-essential libqt4-dev qt5-qmake cmake qttools5-dev libqt5webkit5-dev qttools5-dev-tools qt5-default python-sphinx texlive-latex-base inotify-tools openssl libssl-dev libdb++-dev libminiupnpc-dev git sqlite3 libsqlite3-dev g++ libpng-dev git g++ gedit python gcc make libbz2-dev libdb-dev libssl-dev openssl libreadline-dev autoconf libtool git libleveldb-dev libblkid-dev e2fslibs-dev libboost-all-dev libaudit-dev automake nano qtbase5-dev qt4-dev-tools libqt4-core libqt4-gui libqt5-core libqt5-gui
+
 **1. Build the binaries with blank genesis tx hex** (src/CryptoNoteConfig.h)
 
 You should leave `const char GENESIS_COINBASE_TX_HEX[]` blank and compile the binaries without it.
