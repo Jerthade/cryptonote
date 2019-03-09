@@ -175,6 +175,7 @@ apt install build-essential libqt4-dev qt5-qmake cmake qttools5-dev libqt5webkit
 sudo apt-get install build-essential -y
 sudo apt install cmake -y
 sudo apt install make -y
+sudo apt-get install libboost-all-dev
 cd steelhorsecrypto
 mkdir build
 cd build
