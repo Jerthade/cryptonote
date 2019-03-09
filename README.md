@@ -182,7 +182,7 @@ cd build
 cmake ../src
 
 
-
+With 1gb RAM server, swapfile was increased to 8gb to build without out of memory errors
 **1. Build the binaries with blank genesis tx hex** (src/CryptoNoteConfig.h)
 
 You should leave `const char GENESIS_COINBASE_TX_HEX[]` blank and compile the binaries without it.
