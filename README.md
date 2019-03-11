@@ -181,8 +181,31 @@ mkdir build
 cd build
 cmake ../src
 
+1. Setting up an environment
 
-With 1gb RAM server, swapfile was increased to 8gb to build without out of memory errors
+Execute the following command to get everything you need in order to setup an environment
+
+sudo apt-get install build-essential git cmake libboost1.55-all-dev
+2. Cloning a repository
+
+Execute the following command to copy a desired repository
+
+git clone https://github.com/cryptonotefoundation/cryptonote
+3. Opening a folder with copied repository
+
+Execute the following command to get into the directory with copied repository
+
+cd cryptonote
+4. Building
+
+Execute the following command to build a coin
+
+make -j
+
+
+With 1gb RAM server, swapfile was increased to 16gb to build without out of memory errors.
+Memory errors still came
+
 **1. Build the binaries with blank genesis tx hex** (src/CryptoNoteConfig.h)
 
 You should leave `const char GENESIS_COINBASE_TX_HEX[]` blank and compile the binaries without it.
